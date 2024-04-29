@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PizzaStore:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PizzaStore</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PizzaStore-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PizzaStore:war exploded" />
+    </root>
+  </artifact>
+</component>
